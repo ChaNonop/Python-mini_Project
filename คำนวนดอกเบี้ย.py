@@ -1,0 +1,5 @@
+calcius= float(input("อุณหภูมิในหน่วยองศาเซลเซียส: " ))
+cal_fahrenheit=(9/5*calcius+32)
+cal_kelvin=(calcius+273.15)
+print("_"*(20))
+print("อุณหภูมิในหน่วยฟาเรนไฮน์: %.1f F อุณหภูมิในหน่วยเคลวิน: %.1f์ K "%(cal_fahrenheit,cal_kelvin))
